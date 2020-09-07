@@ -24,40 +24,10 @@
   
   .autoadjust {
   height: auto;
-  }
-  
+  } 
 
 
-ul.timeline {
-    list-style-type: none;
-    position: relative;
-}
-ul.timeline:before {
-    content: ' ';
-    background: #d4d9df;
-    display: inline-block;
-    position: absolute;
-    left: 29px;
-    width: 2px;
-    height: 100%;
-    z-index: 400;
-}
-ul.timeline > li {
-    margin: 20px 0;
-    padding-left: 20px;
-}
-ul.timeline > li:before {
-    content: ' ';
-    background: white;
-    display: inline-block;
-    position: absolute;
-    border-radius: 50%;
-    border: 3px solid #22c0e8;
-    left: 20px;
-    width: 20px;
-    height: 20px;
-    z-index: 400;
-}
+
   </style>
 </head>
 <body>
@@ -72,15 +42,20 @@ ul.timeline > li:before {
 </div>
 <br>
 
-<p class="text-justify">I enjoy volunteering time at various venues as and when as I see open opportunities and depending on my existing commitments. Currently, volunteering with <a href="http://sdeskills.com"> SDE Skills</a> and in the recent past, I have also volunteered to be a tech tutor at <a href="kcls.org">KCLS Library</a></p>
+<div class="container">
+  <div class="row">
+    <div class="col-md-10">
+      <p class="text-justify">I enjoy volunteering time at various venues as and when as I see open opportunities and depending on my existing commitments. Currently, volunteering with <a href="http://sdeskills.com"> SDE Skills</a> and in the recent past, I have also volunteered to be a tech tutor at <a href="kcls.org">KCLS Library</a></p>
+    </div>
+  </div>
 
-<br>
-<h3> SDE Skills </h3>
+
 <div class="row">
+  <h3> SDE Skills </h3>
   <div class="col-md-4">
     <div class="thumbnail">
       <a href="https://www.youtube.com/watch?v=j-7EFV1rg0U&feature=youtu.be">
-        <img src="/images/sde-bookclub2.jpg" alt="Book Club" style="width:100%">
+        <img src="/images/sde-bookclub2.jpg" alt="Book Club" style="width:100%" class="img-thumbnail autoadjust">
         <div class="caption">
           <p>Book club session: Chapter 3 from the book - Designing Data Intensive Applications</p>
         </div>
