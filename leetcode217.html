@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dippy Aggarwal, Ph.D.</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+
+    .jumbotron {
+  margin-top: 10px;
+  min-height:330px;
+  background-image:url("/images/seattle.jpg");
+  background-size:cover;
+  
+  }
+  
+  .autoadjust {
+  height: auto;
+  }
+  
+  .navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+  </style>
+</head>
+<body>
+
+	<div class="jumbotron text-center" style="margin-bottom:0">
+		<h1>Dippy Aggarwal, Ph.D.</h1>
+		<p>
+			<a class="btn btn-primary" href="http://dippyaggarwal.github.io/" role="button">Home</a>
+			<a class="btn btn-primary" href="/pdf/DippyAggarwal-CV.pdf" role="button">Resume</a>
+			<a class="btn btn-primary" href="http://www.lifebeyondtechnology.com/" role="button">Personal Blog</a> 
+			<a class="btn btn-primary" href="https://mytechinterpretations.blogspot.com/2021/01/welcome-to-my-tech-blog.html" role="button">Technical Blog</a>   
+			<a class="btn btn-primary" href="volunteering.html" role="button">Volunteering</a></p> 
+	  
+	 </div>	 
+	 <br>
+<div class="container">
+
+<p class="text-justify"><h2>Leetcode 217 - Contains Duplicate</h2>
+<br> Link: <a href="https://leetcode.com/problems/contains-duplicate/">https://leetcode.com/problems/contains-duplicate/</a>
+<br>
+
+<h3>Approach(es)</h3>
+<br>Approach 1: Start from the first element, iterate the complete array to check if it is a duplicate. If you find a duplicate at any point, return true. If not, repeat this for second array element till either you find a duplicate or you have exhausted all the array elements. 
+If no duplicate found, return false. <b>Time complexity:</b>O(n^2) because you will be running two loops. <b>Space complexity:</b>O(1)
+<br>
+Approach 2: To optimize the solution above, you will consider optimizing time complexity from quadratic to linear or logarithmic possibly. 
+Using a hashset can help to reduce complexity to linear time O(n) but at the cost of additional space O(n). 
+
+<br>
+<h3>Code (Java)</h3>
+<br>
+If you liked the solution, please upvote it <a href="">here</a>
+</div>
+
+
+
+</body>
+</html>
